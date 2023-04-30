@@ -3,7 +3,5 @@ body{background: #191c29;}
 .bg__menu {background-color: black; margin-bottom:200px;}
 .color__menu{color: white;}
 .color__menu > svg {fill: rgba(255, 255, 255, 0.76);}
-
-main {
-    margin-top: 18vh;
-}
+main{margin-top: 18vh;}
+.footer__edit{ background-color: black; padding: 10px; }
