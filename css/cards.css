@@ -126,11 +126,7 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .paragrafo__cards {
-    padding-top: 60px;
-    width:70vw;
-  }
-}
+  .paragrafo__cards {padding-top: 60px;width:70vw;}}
 
 .personagens__cards {
   display: flex;
