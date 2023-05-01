@@ -1,7 +1,28 @@
 body{background: #191c29;}
 .img__logo {width: 50px; height: 70px; cursor: pointer;}
-.bg__menu {background-color: black; margin-bottom:200px;}
+.bg__menu {background-color: black; margin-bottom:200px; box-shadow: 2px 5px 30px 30px rgba(0, 0, 0, 0.288);}
 .color__menu{color: white;}
 .color__menu > svg {fill: rgba(255, 255, 255, 0.76);}
-main{margin-top: 18vh;}
-.footer__edit{ background-color: black; padding: 10px; }
+main{margin-top: 18vh; margin-bottom: 18vh;}
+.footer__edit{ background-color: black; padding: 10px;}
+.crad__body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card__img {
+    transition: all .3s ease-out;
+    background-size: cover;
+    width: 15rem; height: 10rem;
+    border-radius: 5px;
+    margin: 20px;
+}
+.card__img:hover{
+    box-shadow: 2px 4px 5px black;
+    transform: scale(1.1);
+}
+
+.card__titulo {
+    color: rgba(255, 255, 255, 0.623);
+    text-align: center;
+}
