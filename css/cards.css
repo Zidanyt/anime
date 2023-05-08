@@ -1,3 +1,7 @@
+/* #6D5D6E
+#F4EEE0 
+#393646*/
+
 /* Card do Anime */
 :root {
     --card-height: 300px;
@@ -11,7 +15,8 @@
 body {
     width: 100%;
     height: 100%;
-    background: #191c29;
+    background: #6D5D6E;
+    background-image: url('https://wallpapercave.com/wp/wp9060281.jpg'); backdrop-filter: blur(2px); -webkit-backdrop-filter:blur(4px) ;  background-repeat: no-repeat; background-size: cover; background-position: center center; object-fit: cover;
 }
 
 .main {
@@ -19,6 +24,8 @@ body {
     margin: 0;
     display: flex;
     align-items: center;
+    padding-bottom: 3rem;
+    
 }
 
 .card_ {
@@ -111,6 +118,7 @@ body {
     transition: all 0.5s;
     position: absolute;
     z-index: -1;
+    object-fit: cover;
 }
 
 .card_:hover .character_ {
@@ -127,6 +135,7 @@ body {
     .img__size {
         width: 150px;
         height: 200px;
+        object-fit: cover;
     }
 
     main {
@@ -140,10 +149,26 @@ body {
     }
 }
 
-/* cards de personagens */
-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 100px 0px;
+/* Insformações dos cards */
+
+.text__card {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-style: italic;
+    box-shadow: 2px 2px 0px rgb(114, 107, 107);
+    padding: 5px;
+}
+
+.cards__lista {
+    color: #F4EEE0;
+    background-color: #5a455c;
+    width: 100%;
+    margin: 0px auto;
+    padding: 1.1rem;
+}
+.cards__lista > li {
+    font-style: italic;
+    font-size: .9em;
+    list-style: none;
+    margin: .6rem 0px .6rem 2rem;
 }
