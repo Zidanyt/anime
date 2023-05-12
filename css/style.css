@@ -18,13 +18,23 @@ main{margin-top: 0; margin-bottom: 0;}
     width: 12rem; height: 2rem; margin-top: .3rem;
 }
 .main__cards {
-display: flex;justify-content: space-evenly;flex-wrap: wrap; padding-top: 12rem; padding-bottom: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 12rem;
+    padding-bottom: 6rem;
     list-style: none;
     display: flex;
     width: 100%;
 }
 
 a > img{
-    width: 14rem; height: 15rem;
+    width: 6rem; height: 16rem;
+    background-size: cover; object-fit: cover;
+    margin: 2rem;
+}
+a > img{
+    width: 13rem; height: 16rem;
+    background-size: cover; object-fit: cover;
 }
   
