@@ -126,7 +126,7 @@ body {
     transform: translate3d(0%, -30%, 100px);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     :root {
         --card-height: 150px;
         --card-width: calc(var(--card-height) / 1);
@@ -150,6 +150,19 @@ body {
 }
 
 /* Insformações dos cards */
+
+.main {
+    transition: all .7s ease-in ;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 
+.paragrafo__cards {
+    width: 70%;
+} */
 
 .text__card {
     color: #ffffff;

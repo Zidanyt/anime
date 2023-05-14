@@ -2,39 +2,85 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 
-body{background: #4F4557; background-image: url('https://th.bing.com/th/id/R.c1d250d2fc256a245b59059fe2fa0d4d?rik=3qIK6EGDLk%2byxQ&pid=ImgRaw&r=0'); backdrop-filter: blur(4px); -webkit-backdrop-filter:blur(4px) ;  background-repeat: no-repeat; background-size: cover;}
-.img__logo {width: 50px; height: 60px; cursor: pointer;}
-.bg__menu {background-color: #393646; box-shadow: 2px 5px 30px 30px rgba(0, 0, 0, 0.288);}
-.color__menu{color: #F4EEE0; font-family: 'Exo', sans-serif;}
-.color__menu > svg {fill: rgba(255, 255, 255, 0.76);}
-main{margin-top: 0; margin-bottom: 0;}
-.footer__edit{ background-color: #393646; padding: 10px;}
-.footer__edit > img { width: 30px; }
-.crad__body {display: flex;justify-content: space-evenly;flex-wrap: wrap; padding-top: 12rem; padding-bottom: 6rem; }
-.card__img {transition: all .2s ease-in;background-size: cover;width: 13rem; height: 17rem;border-radius: 5px;margin: 35px; object-fit: cover;}
-.card__img:hover{box-shadow: 1px 1px 10px black;transform: scale(1.1); object-fit: cover;}
-.card__titulo {color: #F4EEE0;text-align: center; font-family: 'Raleway', sans-serif; text-transform: capitalize;}
-#pesquisa{
-    width: 12rem; height: 2rem; margin-top: .3rem;
+body {
+    background: #4F4557;
+    background-image: url('https://th.bing.com/th/id/R.c1d250d2fc256a245b59059fe2fa0d4d?rik=3qIK6EGDLk%2byxQ&pid=ImgRaw&r=0');
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.img__logo {
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.bg__menu {
+    background-color: #393646;
+    box-shadow: 2px 5px 30px 30px rgba(0, 0, 0, 0.288);
+}
+
+.color__menu {
+    color: #F4EEE0;
+    font-family: 'Exo', sans-serif;
+}
+
+.color__menu>svg {
+    fill: rgba(255, 255, 255, 0.76);
+}
+
+.footer__edit {
+    background-color: #393646;
+    padding: 10px;
+}
+
+.footer__edit>img {
+    width: 30px;
+}
+
+#pesquisa {
+    width: 12rem;
+    height: 2rem;
+    margin-top: .3rem;
+}
+
 .main__cards {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     padding-top: 12rem;
     padding-bottom: 6rem;
     list-style: none;
-    display: flex;
+    transition: all .7s ease-in ;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex; justify-content: space-evenly;
+    flex-wrap: wrap;
     width: 100%;
 }
 
-a > img{
-    width: 6rem; height: 16rem;
-    background-size: cover; object-fit: cover;
+div>a>img {
+    width: 13rem;
+    height: 16rem;
+    background-size: cover;
+    object-fit: cover;
     margin: 2rem;
+    transition: all .2s ease-in;
 }
-a > img{
-    width: 13rem; height: 16rem;
-    background-size: cover; object-fit: cover;
+
+.card__titulo {
+    color: #F4EEE0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: capitalize;
 }
-  
+
+.controle {
+    width: 15rem;
+    margin: 0px 2rem 0px 0px;
+}
+
+a>img:hover {
+    box-shadow: 1px 1px 10px black;
+    transform: scale(1.1);
+    object-fit: cover;
+}
