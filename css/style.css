@@ -44,6 +44,11 @@ body {
     width: 12rem;
     height: 2rem;
     margin-top: .3rem;
+    border: none;
+    border-radius: 10px;
+}
+#pesquisa:focus {
+    outline: none;
 }
 
 .main__cards {
@@ -83,4 +88,15 @@ a>img:hover {
     box-shadow: 1px 1px 10px black;
     transform: scale(1.1);
     object-fit: cover;
+}
+
+.bg__color {
+    background-color: white;
+    display: flex; border-radius: 10px;
+}
+
+.size {
+    border-right: 1px solid black;
+    width: 1.7rem; height: 2.5rem;
+    background-color: rgba(128, 128, 128, 0.589);border-bottom-left-radius: 10px; border-top-left-radius: 10px;
 }
