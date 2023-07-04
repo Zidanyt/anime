@@ -16,7 +16,7 @@ body {
     width: 100%;
     height: 100%;
     background: #6D5D6E;
-    background-image: url('https://wallpapercave.com/wp/wp9060281.jpg'); backdrop-filter: blur(2px); -webkit-backdrop-filter:blur(4px) ;  background-repeat: no-repeat; background-size: cover; background-position: center center; object-fit: cover;
+    background-image: url('https://wallpapercave.com/wp/wp9060281.jpg'); backdrop-filter: blur(1.8px); -webkit-backdrop-filter:blur(4px) ;  background-repeat: no-repeat; background-size: cover; background-position: center center; object-fit: cover;
 }
 
 .main {
@@ -82,7 +82,7 @@ body {
     background-image: linear-gradient(to top,
             transparent 46%,
             rgba(12, 13, 19, 0.5) 68%,
-            rgba(12, 13, 19) 97%);
+            rgba(12, 13, 19, 0.322) 67%);
 }
 
 .wrapper_::after {
@@ -101,11 +101,6 @@ body {
 
 .card_:hover .wrapper_::after {
     height: 120px;
-}
-
-.title {
-    width: 100%;
-    transition: transform 0.5s;
 }
 
 .card_:hover .title {
