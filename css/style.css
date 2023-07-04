@@ -91,6 +91,7 @@ a>img:hover {
 }
 
 .bg__color {
+    width: 20rem;
     background-color: rgba(92, 85, 85, 0.733);
     display: flex; border-radius: 10px;
     align-items: center;
