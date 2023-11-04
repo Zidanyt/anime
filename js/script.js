@@ -215,7 +215,7 @@ const animes = [
   ScrollReveal({
     reset: true,
     distance: '30px',
-    duration: 2000,
+    duration: 1500,
     delay: 100
 })
 
