@@ -60,12 +60,6 @@ body {
     flex-wrap: wrap;
 }
 
-div>a>img {
-    width: 14rem;
-    height: 17rem;
-    object-fit: cover;
-    margin: 1rem;
-}
 
 .card__titulo {
     color: #F4EEE0;
@@ -77,6 +71,19 @@ div>a>img {
 .controle {
     width: 17em;
     margin: 1.5rem;
+}
+
+.controle:hover {
+    width: 17em;
+    margin: 1.5rem;
+    transform: scale(1.05);
+}
+
+div>a>img {
+    width: 14rem;
+    height: 17rem;
+    object-fit: cover;
+    margin: 1rem;
 }
 
 div>a>img:hover {
